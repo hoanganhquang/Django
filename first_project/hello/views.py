@@ -5,10 +5,5 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request, "index.html")
+    return render(request, "hello/index.html")
 
-
-def home(request, name):
-    return render(request, "home.html", {
-        "name": name.capitalize()
-    })
