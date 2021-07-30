@@ -1,15 +1,22 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+
 
 # Create your views here.
 
-tasks = ["1", "2", "3"]
-
-
 def index(request):
+    if "tasks" not in request.session:
+        request.session["tasks"] = []
     return render(request, "tasks/index.html", {
-        "tasks": tasks
+        "tasks": request.session["tasks"]
     })
 
 
 def add_task(request):
+    if request.method == "POST":
+        task = request.POST.dict()
+        task = task.get("task")
+        request.session["tasks"] += [task]
+
+        return redirect('tasks:index')
+
     return render(request, "tasks/add.html")
