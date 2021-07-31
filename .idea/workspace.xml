@@ -1,70 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/static/encyclopedia/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/entries/CSS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/entries/Django.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/entries/Git.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/entries/HTML.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/entries/Python.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/wiki/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/wiki/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/wiki/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/wiki/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/wiki/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="Add wiki app">
+      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/csspage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/md-layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_project/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_project/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_project/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_project/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_project/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/hello/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/hello/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/hello/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/hello/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/hello/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/hello/templates/hello/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/hello/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/hello/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/hello/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/static/new_year/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/templates/new_year/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/new_year/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/static/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/templates/tasks/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/templates/tasks/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/templates/tasks/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/tasks/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/encyclopedia/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/encyclopedia/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/encyclopedia/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/wiki/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/wiki/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +20,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1w4N5DMwuv3nW0WZXWzxolKu1nl" />
   <component name="ProjectLevelVcsManager">
@@ -91,9 +45,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -128,8 +84,16 @@
       <option name="presentableId" value="Default" />
       <updated>1627713719179</updated>
       <workItem from="1627713723287" duration="2243000" />
-      <workItem from="1627716011627" duration="1745000" />
+      <workItem from="1627716011627" duration="5073000" />
     </task>
+    <task id="LOCAL-00001" summary="Add wiki app">
+      <created>1627718261856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627718261856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add wiki app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add wiki app" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django$main.coverage" NAME="main Coverage Results" MODIFIED="1627714397516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

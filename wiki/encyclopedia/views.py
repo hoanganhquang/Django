@@ -8,3 +8,8 @@ def index(request):
         "entries": util.list_entries()
     })
 
+
+def css_page(request, name):
+    return render(request, "encyclopedia/csspage.html", {
+        "name": util.get_entry(name)
+    })
