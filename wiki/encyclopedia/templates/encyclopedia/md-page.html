@@ -2,5 +2,7 @@
 {% load markdownify %}
 
 {% block body %}
-    {{name | markdownify }}
+    {{name | markdownify }} <br>
+
+    <a href="{% url 'encyclopedia:edit_page'%}">Edit content</a>
 {% endblock %}

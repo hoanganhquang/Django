@@ -30,3 +30,13 @@ def new_page(request):
         return redirect("encyclopedia:index")
 
     return render(request, "encyclopedia/new-page.html")
+
+
+def edit_page(request, name):
+    if request.method == "POST":
+        content = request.POST.get("content")
+        util.save_entry(name, content)
+
+        redirect('encyclopedia:md_page')
+
+    return render(request, "encyclopedia/edit-page.html")
