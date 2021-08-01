@@ -47,5 +47,4 @@ def edit_page(request, name):
 
 def random_page(request):
     random_entry = random.choice(util.list_entries())
-
     return redirect("encyclopedia:md_page", name=random_entry)
