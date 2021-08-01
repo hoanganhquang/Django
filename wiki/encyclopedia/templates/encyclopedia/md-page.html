@@ -4,5 +4,5 @@
 {% block body %}
     {{name | markdownify }} <br>
 
-    <a href="{% url 'encyclopedia:edit_page'%}">Edit content</a>
+    <a href="{% url 'encyclopedia:edit_page' name=name_md %}">Edit content</a>
 {% endblock %}

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="Update new_page page">
-      <change afterPath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/edit-page.html" afterDir="false" />
+    <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="Add edit-page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/edit-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/md-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/md-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/encyclopedia/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/encyclopedia/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,8 @@
       <updated>1627713719179</updated>
       <workItem from="1627713723287" duration="2243000" />
       <workItem from="1627716011627" duration="9335000" />
-      <workItem from="1627809959031" duration="5027000" />
+      <workItem from="1627809959031" duration="5662000" />
+      <workItem from="1627820267066" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="Add wiki app">
       <created>1627718261856</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627811540709</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add edit-page">
+      <created>1627816242932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627816242932</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +143,8 @@
     <MESSAGE value="Add markdown" />
     <MESSAGE value="Update index page" />
     <MESSAGE value="Update new_page page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update new_page page" />
+    <MESSAGE value="Add edit-page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add edit-page" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django$main.coverage" NAME="main Coverage Results" MODIFIED="1627714397516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

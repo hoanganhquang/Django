@@ -16,7 +16,8 @@ def index(request):
 
 def md_page(request, name):
     return render(request, "encyclopedia/md-page.html", {
-        "name": util.get_entry(name)
+        "name": util.get_entry(name),
+        "name_md": name
     })
 
 
@@ -37,6 +38,8 @@ def edit_page(request, name):
         content = request.POST.get("content")
         util.save_entry(name, content)
 
-        redirect('encyclopedia:md_page')
+        return redirect('encyclopedia:index')
 
-    return render(request, "encyclopedia/edit-page.html")
+    return render(request, "encyclopedia/edit-page.html", {
+        "name": name
+    })
