@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight</title>
+</head>
+<body>
+    <h3> Flight </h3>
+    <p>Origin: {{flight.origin}}</p>
+    <p>Destination: {{flight.destination}}</p>
+    <p>Duration: {{flight.duration}}</p>
+
+    <h3>Passengers</h3>
+    <ul>
+        {% for person in passengers %}
+            <li>{{person}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
