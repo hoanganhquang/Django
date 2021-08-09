@@ -2,12 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Flight</title>
+    <title>Flights</title>
 </head>
 <body>
+    <h3>Flight</h3>
     <ul>
         {% for flight in flights %}
             <li>{{flight.origin}} to {{flight.destination}}</li>
+        {% endfor %}
+    </ul>
+    <h3>Airport</h3>
+    <ul>
+        {% for airport in airports %}
+            <li>{{airport.city}} ({{airport.code}})</li>
         {% endfor %}
     </ul>
 </body>

@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="add flights app">
-      <change afterPath="$PROJECT_DIR$/airline/flight/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flight/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flight/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flight/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flight/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flight/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flight/templates/flight/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flight/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flight/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flight/views.py" afterDir="false" />
+    <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="add flight app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/airline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/airline/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/airline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/airline/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airline/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/airline/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flights/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flights/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flights/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flights/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flights/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flights/templates/flights/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flights/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flights/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flights/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flight/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/flight/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flight/templates/flight/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/airline/flight/templates/flight/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flight/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/flight/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +88,7 @@
       <workItem from="1628390983312" duration="1748000" />
       <workItem from="1628410769989" duration="5205000" />
       <workItem from="1628416709051" duration="159000" />
-      <workItem from="1628494961891" duration="1960000" />
+      <workItem from="1628494961891" duration="3924000" />
     </task>
     <task id="LOCAL-00001" summary="Add wiki app">
       <created>1627718261856</created>
@@ -171,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628394812076</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add flight app">
+      <created>1628497977716</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628497977716</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +189,8 @@
     <MESSAGE value="completed edit-page" />
     <MESSAGE value="completed random-page" />
     <MESSAGE value="add flights app" />
-    <option name="LAST_COMMIT_MESSAGE" value="add flights app" />
+    <MESSAGE value="add flight app" />
+    <option name="LAST_COMMIT_MESSAGE" value="add flight app" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django$main.coverage" NAME="main Coverage Results" MODIFIED="1628413997976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
