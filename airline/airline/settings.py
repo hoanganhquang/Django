@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-pjk0bf^fl*s3#&4tan&q#4a6$wmd2%wdnhvs1u75pw5bd8l^*x'
+SECRET_KEY = 'django-insecure-v_-*bd)=hb8%u4knb*8_bndinp9i_utw@v6j9(0f=gqe%nr^j('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'flights',
+    'flight',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

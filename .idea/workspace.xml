@@ -1,52 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="completed random-page">
-      <change afterPath="$PROJECT_DIR$/airline/airline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/airline/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/airline/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/airline/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/airline/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/templates/flights/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/manage.py" afterDir="false" />
+    <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="add flights app">
+      <change afterPath="$PROJECT_DIR$/airline/flight/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flight/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flight/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flight/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flight/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flight/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flight/templates/flight/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flight/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flight/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flight/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/static/encyclopedia/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/edit-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/md-layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/md-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/templates/encyclopedia/new-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/encyclopedia/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/entries/CSS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/entries/Django.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/entries/Git.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/entries/HTML.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/entries/Python.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/wiki/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/wiki/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/wiki/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/wiki/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/wiki/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/airline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/airline/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/airline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/airline/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/airline/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flights/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flights/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flights/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flights/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flights/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flights/templates/flights/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flights/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flights/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/flights/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +103,10 @@
       <workItem from="1627809959031" duration="5662000" />
       <workItem from="1627820267066" duration="3230000" />
       <workItem from="1627984100627" duration="8000" />
-      <workItem from="1628390983312" duration="1636000" />
+      <workItem from="1628390983312" duration="1748000" />
+      <workItem from="1628410769989" duration="5205000" />
+      <workItem from="1628416709051" duration="159000" />
+      <workItem from="1628494961891" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="Add wiki app">
       <created>1627718261856</created>
@@ -183,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627822925485</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add flights app">
+      <created>1628394812076</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628394812076</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,9 +199,10 @@
     <MESSAGE value="updated edit-page" />
     <MESSAGE value="completed edit-page" />
     <MESSAGE value="completed random-page" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed random-page" />
+    <MESSAGE value="add flights app" />
+    <option name="LAST_COMMIT_MESSAGE" value="add flights app" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Django$main.coverage" NAME="main Coverage Results" MODIFIED="1627714397516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Django$main.coverage" NAME="main Coverage Results" MODIFIED="1628413997976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
