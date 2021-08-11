@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="updated flight app">
+      <change afterPath="$PROJECT_DIR$/airline/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/templates/users/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/airline/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flight/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/flight/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flight/templates/flight/flight.html" beforeDir="false" afterPath="$PROJECT_DIR$/airline/flight/templates/flight/flight.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flight/templates/flight/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/airline/flight/templates/flight/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flight/templates/flight/passenger.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flight/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/flight/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airline/flight/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/flight/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/airline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/airline/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/airline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/airline/airline/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,7 @@
       <workItem from="1628410769989" duration="5205000" />
       <workItem from="1628416709051" duration="159000" />
       <workItem from="1628494961891" duration="8455000" />
-      <workItem from="1628585481572" duration="3397000" />
+      <workItem from="1628585481572" duration="5678000" />
     </task>
     <task id="LOCAL-00001" summary="Add wiki app">
       <created>1627718261856</created>
@@ -185,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628503191934</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated flight app">
+      <created>1628589558467</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628589558467</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
