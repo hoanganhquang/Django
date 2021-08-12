@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2690e60-71a8-423a-b6af-3f9a523ac0e9" name="Changes" comment="add commerce app">
-      <change afterPath="$PROJECT_DIR$/commerce/auctions/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commerce/auctions/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commerce/auctions/templates/auctions/create-listing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commerce/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commerce/auctions/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/commerce/auctions/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commerce/auctions/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/commerce/auctions/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commerce/auctions/migrations/0002_auctionlistings_bids_comments.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/commerce/auctions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/commerce/auctions/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commerce/auctions/templates/auctions/create-listing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commerce/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/commerce/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -49,6 +49,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python projects\Django\commerce\auctions" />
+      <recent name="D:\Python projects\Django\commerce\auctions\migrations" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -92,7 +98,12 @@
       <workItem from="1628416709051" duration="159000" />
       <workItem from="1628494961891" duration="8455000" />
       <workItem from="1628585481572" duration="5678000" />
-      <workItem from="1628669640714" duration="5930000" />
+      <workItem from="1628669640714" duration="6173000" />
+      <workItem from="1628758841489" duration="3703000" />
+      <workItem from="1628763700098" duration="184000" />
+      <workItem from="1628773738959" duration="297000" />
+      <workItem from="1628774072084" duration="276000" />
+      <workItem from="1628774389611" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="Add wiki app">
       <created>1627718261856</created>
