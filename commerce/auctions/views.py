@@ -67,13 +67,17 @@ def register(request):
 
 
 def create_item(request):
+    user = request.user
+    if user.id is None:
+        return redirect("login_view")
+
     if request.method == "POST":
-        seller = request.user
+        seller = user
         item_name = request.POST["item-name"]
         price = request.POST["price"]
         describe = request.POST["describe"]
-        date = datetime.now().strftime("%d-%m-%Y")
-        new_item = AuctionListing.objects.create(item_name=item_name, price=price, seller=seller.id, date=date, describe=describe)
+        date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        new_item = AuctionListing.objects.create(item_name=item_name, price=price, seller=seller, date=date, describe=describe)
         new_item.save()
 
         return redirect('index')

@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Auctions</title>
-</head>
-<body>
+{% extends 'auctions/layout.html '%}
+
+{% block body %}
     <form action="{% url 'create_item' %}" method="post">
         {% csrf_token %}
         <input type="text" placeholder="Item name" name="item-name"> <br>
@@ -12,5 +8,5 @@
         <input type="text" placeholder="Describe" name="describe"> <br>
         <input type="submit">
     </form>
-</body>
-</html>
+
+{% endblock %}
