@@ -3,5 +3,15 @@
 {% block body %}
     <h2>Active Listings</h2>
 
-    TODO
+    {% for item in items %}
+        <ul>
+            <li>{{item.item_name}}</li>
+            <li>{{item.price}}</li>
+            <li>{{item.describe}}</li>
+            <li>{{item.date}}</li>
+            <p>Sell by {{item.seller.username}}</p>
+        </ul>
+    {% empty %}
+        <p>Not items</p>
+    {% endfor %}
 {% endblock %}
