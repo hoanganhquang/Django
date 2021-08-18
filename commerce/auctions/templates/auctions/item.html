@@ -1,0 +1,19 @@
+
+
+    <h3>Detail</h3>
+    <ul>
+            <li>{{item.item_name}}</li>
+            <li>{{item.price}}</li>
+            <li>{{item.describe}}</li>
+            <li>{{item.date}}</li>
+            <p>Sell by {{item.seller.username}}</p>
+    </ul>
+
+    <h4>Your current bid</h4>
+    <p>{{current_bid}}</p>
+
+    <form action="{% url 'item_detail' item_id=item.id %}" method="post">
+        {% csrf_token %}
+        <input type="text" placeholder="Bid" name="bid"> <br>
+        <input type="submit" value="Place bid">
+    </form>

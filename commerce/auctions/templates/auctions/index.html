@@ -5,7 +5,7 @@
 
     {% for item in items %}
         <ul>
-            <li>{{item.item_name}}</li>
+            <li> <a href="{% url 'item_detail' item_id=item.id %}">{{item.item_name}}</a> </li>
             <li>{{item.price}}</li>
             <li>{{item.describe}}</li>
             <li>{{item.date}}</li>

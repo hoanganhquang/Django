@@ -83,3 +83,21 @@ def create_item(request):
         return redirect('index')
 
     return render(request, 'auctions/create-item.html')
+
+
+def item_detail(request, item_id):
+    item = AuctionListing.objects.get(pk=int(item_id))
+    current_user_id = request.user.id
+    current_user = User.objects.get(pk=int(current_user_id))
+
+    if request.method == "POST":
+        price = request.POST["bid"]
+        new_bid = Bid.objects.create(price=price, user_bids=request.user, item=item)
+        new_bid.save()
+
+    context = {
+        "item": item,
+        # "current_bid": current_bid
+    }
+
+    return render(request, 'auctions/item.html', context)
